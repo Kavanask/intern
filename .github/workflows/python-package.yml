@@ -38,8 +38,6 @@ jobs:
       run: |
         pip install numpy
         pip install Flask
-        pip install request
         pip install jsonify
-        pip install render_template
         pip install pickle
         python app.py
